@@ -14,7 +14,7 @@
     例如試算表網址為`https://docs.google.com/spreadsheets/d/ **此為試算表ID** /edit?gid=0#gid=0`
 5. 在GAS專案設定裡面的指令碼屬性將userID、Channel access token、SHEET_ID等資料設定好，這些資料都極為重要請勿隨意公開洩露。  
     依據專案還需要的ID取得方法：
-    * DRIVE_FOLDER_ID： 此為Google雲端硬碟資料夾ID，從該資料夾網址中取得，例如https://drive.google.com/drive/folders/**資料夾ID**。
+    * DRIVE_FOLDER_ID： 此為Google雲端硬碟資料夾ID，從該資料夾網址中取得，例如`https://drive.google.com/drive/folders/ **資料夾ID** `。
     * GEMINI_API_KEY： 此為Gemini API KEY，從Google AI Studio建立APIkey。
 6. 將程式碼複製貼上到GAS的編輯器當中後存檔，請先嘗試使用編輯器的執行功能執行一次，取得GAS專案的存取權，確認授權後右上角選擇新增部署作業，類型選擇**網頁應用程式**，誰可以存取選擇**所有人**，即可取得網址。
 7. 將取得的網址貼到聊天機器人的Webhook URL即可使用聊天機器人。  
